@@ -1,0 +1,29 @@
+.box-layout {
+    // background: url('/images/bg.jpg');
+    background-color: $dark-blue;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-image: -webkit-linear-gradient(-90deg, $dark-blue 0%, $yonder-blue 100%);
+}
+
+
+.box-layout__box {
+    // background: fade-out($color: $easy-blue, $amount: .15);
+    border-radius: 3px;
+    text-align: center;
+    width: 50rem;
+    padding: $l-size $m-size;
+    color: $easy-blue;
+}
+
+.box-layout__title {
+    font-size: 5rem;
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+}
+

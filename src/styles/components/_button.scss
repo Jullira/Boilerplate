@@ -1,0 +1,38 @@
+.button {
+    padding: $s-size;
+    background-color: $orange-off;
+    display: inline-block;
+    font-size: $font-size-larger;
+    border: none;
+    color: $dark-blue;
+    line-height: 1;
+    text-decoration: none;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    background-color: $weird-orange;
+    box-shadow: 0px 15px 20px rgba(102, 62, 2, 0.4);
+    transform: translateY(-7px);
+  }
+
+.button--secondary {
+    background-color: $yonder-blue;
+    color: $easy-blue;
+}
+
+.button--secondary:hover {
+    background-color: #852904;
+    box-shadow: 0px 15px 20px rgba(102, 34, 2, 0.4);
+    transform: translateY(-7px);
+}
+
+.button--link {
+    background: none;
+    color: $easy-blue;
+}
